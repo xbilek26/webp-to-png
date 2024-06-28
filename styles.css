@@ -57,7 +57,8 @@ input[type="file"] {
     color: #ddd;
 }
 
-button {
+button,
+a.button {
     padding: 10px 20px;
     margin: 10px;
     border: 1px solid #555;
@@ -66,9 +67,12 @@ button {
     color: #ddd;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
 }
 
-button:hover {
+button:hover,
+a.button:hover {
     background-color: #555;
 }
 
@@ -81,20 +85,4 @@ img {
     margin-right: auto;
     border: 1px solid #555;
     border-radius: 4px;
-}
-
-a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #6CA0F6;
-    border: 1px solid #6CA0F6;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-a:hover {
-    background-color: #6CA0F6;
-    color: #fff;
 }
