@@ -6,12 +6,6 @@ body {
     color: #ddd;
 }
 
-a,
-a:visited {
-    color: #6CA0F6;
-    text-decoration: none;
-}
-
 p {
     margin: 8px 0;
 }
@@ -40,25 +34,6 @@ input[type="file"] {
     border: 1px solid #555;
     border-radius: 5px;
     color: #ddd;
-}
-
-button,
-a.button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: 1px solid #555;
-    border-radius: 4px;
-    background: #444;
-    color: #ddd;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: inline-block;
-    text-align: center;
-}
-
-button:hover,
-a.button:hover {
-    background-color: #555;
 }
 
 img {
